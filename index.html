@@ -1,52 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Encriptador de mensajes</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Mi Portafolio </title>
 </head>
-<body>
-    <main class="contedenor-main">
-        <section class="logo">
-          <img src="/Imagenes/Logo.svg" alt="logo-alura">
-        </section>
-        <section class="contenedor-datos">
-          <article class="texto">
-            <input id="input" class="input" name="text" type="text" placeholder="Ingresa un mensaje" >
-            <p class="texto-error">El campo no puede llevar acentos ni Mayusculas ni simbolos y no puede estar vacio.</p>
-          </article>
-          <article class="grupo-de-botones">
-            <div class="alerta">
-              <img src="/Imagenes/exlamation.svg" class="info-icono" alt="icono">
-              <p class="text">Solo letras minúsculas y sin acentos</p>
-            </div>
-            <div class="diseño-btns">
-              <button id="encriptar"  class="boton encriptar disab"> Encriptar</button>
-              <button id="descriptar"  class="boton desencriptar disab">  Desencriptar</button>
-            </div>
-          </article>
-        </section>
-        <section class="salida">
-          <article class="mensaje-carta" id="mensaje-carta">
-            <div class="carta" id="carta">
-              <img class="message-img" src="/Imagenes/Muñeco.svg" alt="mensaje"> 
-              <h4 class="titulo-mensaje">Ningún mensaje fue encontrado
-              <p class="descripción">Ingresa el texto que desees encriptar o desencriptar</p>
-            </div>
-          </article>
-    
-          <article class="mensaje" id="respuesta">
-            <p class="mensaje-respuesta" id="mensaje-respuesta"></p>
-            <button class="boton boton-copiar" id="copiar">COPIAR </button>
-          </article>
-    
-        </section>
-      </main>
 
-      <script src="/index.js"></script>
-    
+<body>
+
+    <header class="cabezera">
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/sobremi.html">Sobre Mi</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+                <li><a href="#">Proyectos</a>
+                    <ul class="submenu">
+                        <li><a href="/encriptador.html" target="_blank">Encriptador de Mensajes</a></li>
+                        <li><a href="/ahorcado.html" target="_blank">Juego del Ahorcado</a></li>
+                        <li><a href="/tienda.html" target="_blank">Tienda Online</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Juegos</a>
+                <ul class="submenu">
+                    <li><a href="/acertar.html" >Tiro al Blanco</a></li>
+                    <li><a href="#"></a></li>
+                </ul></li>
+                <li><a href="/carrito.html" target="_blank">Carrito De Compras</a></li>
+            </ul>
+        </nav>
+    </header>
+<main >
+    <section class="contenido">
+        <h1>Bienvenidos a mi Portafolio</h1>
+        <p>Hola me llamo Miguel Angel Padilla Morales y este es mi portafolio echo con HTML, CSS3 Y JAVASCRIPT</p>
+        <br>
+        <p>Te invito a que sigas explorando en las mas pestañas del menu de navegación</p>
+        <br>
+        <p>Te dejo aqui mis redes sociales por si acaso quieres contactarme </p>
+        <nav class="redes">
+            <ul><li><a href="https://www.facebook.com/gaming/Hero191996" target="_blank"><img src="/imagenes/logo facebook.png" alt="Logo facebook"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCyd7ipN1hRf9fRgNBEqdM_Q" target="_blank"><img src="/imagenes/logo youtube.png" alt="Logo Youtube"></a></li>
+            <li><a href="https://www.instagram.com/hero_of_time_96/" target="_blank"><img src="/imagenes/logo instagram.png" alt="Logo Instagram"></a></li>
+            <li><a href="https://www.linkedin.com/in/miguel-angel-padilla-morales-50a240246/" target="_blank"><img src="/imagenes/logo linkedin.png" alt="Logo linkedin"></a></li>
+        <li><a href="mailto:contactomiguelpadilla96@gmail.com" target="_blank"><img src="/imagenes/logo gmail.png" alt="Logo Gmail"></a></li></ul>
+        </nav>
+        
+    </section>
+
+</main>
+
+<footer class="footer" >
+    <p>&#9400 Derechos Reservados Miguel Angel Padilla Morales 2022 </p>
+</footer>
+
 </body>
+
 </html>
